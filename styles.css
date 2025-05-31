@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #444;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:aliceblue;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.game {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color:aliceblue;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game img {
+    width: 95px;
+    height: 95px;
+    border-radius: 5px 5px 0 0;
+}
+
+.game h2 {
+    margin: 10px 0 0 0;
+}
