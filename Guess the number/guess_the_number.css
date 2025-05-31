@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.main{
+    background-color: #424242;
+    color: white;
+    text-align: center;
+}
+.instruction{
+    padding: 20px;
+}
+form{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 20px;
+}
+input{
+    margin-bottom: 20px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.prev-guess{
+    padding: 10px;
+}
+.rem-guess{
+    padding-bottom: 10px;
+}
